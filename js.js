@@ -29,10 +29,9 @@ var convertor = function (evt) {
 
   
 
- 
+  // elInput.value=null;
 };
 
 elForm.addEventListener("submit", convertor);
 elInput.addEventListener("change", convertor);
-// elSelectF.addEventListener("submit", convertor);
-// elSelectC.addEventListener("submit", convertor);
+elSelect.addEventListener("change", convertor);
